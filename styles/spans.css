@@ -1,0 +1,54 @@
+
+span.a1{
+    display: inline; /* the default for span */
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;  
+    background-color: yellow; 
+}
+
+span.b {
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;    
+    background-color: yellow; 
+}
+
+span.c {
+    display: block;
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    border: 1px solid blue;    
+    background-color: yellow; 
+}
+
+
+span.e {
+    display: inline;
+    border:  none;
+    padding: 5px;
+    border-radius:   6px;      
+    font-style: italic;
+    font-weight: normal;
+    color: green; 
+    background-color: #80aaff; 
+}
+
+span.f {
+    display: inline;
+    border:  none;
+    padding: 5px;
+    border-radius:   6px;      
+    font-style: italic;
+    font-weight: bold;
+    color: green; 
+    background-color: #b3b3ff; 
+}
+
+span.e:hover {
+    background-color: #3333f;
+}

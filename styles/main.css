@@ -1,0 +1,201 @@
+
+body {
+    background-color: #d0e4fe;
+}
+
+*, ::before, ::after {
+    box-sizing: inherit;
+	word-break: break-word;
+	word-wrap: break-word;
+    line-height: 1.5;
+}
+
+
+h1,h2,h3 {
+    color: orange;
+    text-align: center;
+}
+
+h4,h5,h6 {
+    color: blue;
+    text-align: center;
+}
+
+p {
+    font-family: "Times New Roman";
+    font-size: 	20px;
+}
+
+ul, li {
+    list-style: none; 
+    margin: 10px;
+    /*
+    display:          inline-block;
+    background-color: aquamarine;
+    color:            violet;
+    font-weight:      bold;  
+    border:           2px solid aqua;
+    border-radius:    6%;
+    */
+}
+
+
+
+
+a {
+    background-color: transparent ;
+    color:            inherit;
+    font-family:      Verdana;
+    font-style:       italic;
+    font-weight:      bold;
+}
+
+a:hover { color: white; text-decoration: none; }
+
+
+img {
+    display:        inline;
+    border-radius:  6px;
+}
+
+img:hover {
+    border: 1px solid blue;    
+}
+
+table, tr, th, td {
+    border:           1px solid blue;
+    border-collapse:  collapse;
+    padding:          10px;
+}
+
+table {
+    /*margin-left: 15px;*/
+    margin-left: 15px;
+    margin-right: 15px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    min-width:  300px;
+}
+
+th, td {
+    font-family:      Verdana;
+    font-style:       normal;
+    font-weight:      normal;
+    font-size:        14px;
+    color:            blue;
+
+}
+
+th {
+    background-color: aqua ;
+}
+
+td {
+    background-color: aquamarine ;
+}
+
+
+
+th a:hover { color: white; }
+
+th a{
+    /*background-color: Bisque ;*/
+    color:            blue;
+    font-family:      Verdana;
+    font-style:       italic;
+    font-weight:      bold;
+}
+
+
+select {
+    background-color: aqua ;
+    font-family:      Verdana;
+    width: 150px;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-left: 10px;
+}
+
+
+input[type=text] {
+    padding: 5px;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+input[type=text]{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    display: block; 
+    width: 100px;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    /*margin: 8px 20;*/
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin-left: auto;
+    margin-right: 0px;
+}
+
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+
+fieldset {
+    display:        block;
+    /*width: 195px;
+    height: 170px;*/
+    margin-left:    2px;
+    margin-right:   2px;
+    padding-top:    0.35em;
+    padding-bottom: 0.625em;
+    padding-left:   0.75em;
+    padding-right:  0.75em;
+    border: 0px;
+    /*border: 2px groove (internal value);*/
+}
+
+legend, label {
+    font-style: italic;
+    font-weight: normal;
+    text-align: center;
+    color: green;
+}
+
+
+
+
+li a {
+    /*color: white;*/
+    border: none;
+    font-style:  normal;
+    text-decoration: none;
+    background-color: transparent; 
+
+}
+
+li a:hover {
+    /*color: white;*/
+    font-style:  normal;
+    text-decoration: none;
+    /*background-color: cyan;*/ 
+
+}
