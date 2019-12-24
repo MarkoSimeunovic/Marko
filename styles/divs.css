@@ -1,23 +1,33 @@
 
-/*form div.dc */
-div.dc {
-    display:     block;
-    max-width:   300px;
-    min-width :   300px;
-    height:    370px;
-    padding:     5px;
-    border: 0px;
+
+div {
+	 display:  block;
+}
+
+div.st {   
+    margin: 15px  !important;
+    padding:  5px;
+    border :  none;
     border-radius: 6px; 
     background-color: aquamarine; 
 }
 
-div.tc {
-    display:       block;
-    max-width:     300px;
-    min-width :    300px;
-    padding:       5px;
-    border:        0px;
-    border-radius: 6px; 
-    background-color: aquamarine; 
+
+/*form div.dc */
+div.dc {   
+    width  :  300px !important;
+    height :  370px !important;
+    margin: 15px  !important;
+
 }
+
+div.tc {
+    width  : 300px !important;
+}
+
+
+
+
+
+
 
