@@ -5,7 +5,7 @@ div {
 }
 
 div.st {   
-    margin: 15px  !important;
+   /* margin: 15px  !important; */
     padding:  5px;
     border :  none;
     border-radius: 6px; 
@@ -13,12 +13,25 @@ div.st {
 }
 
 
+div.flx {   
+  display:   flex; 
+}
+
+div.ec {   
+  /*  width  :  180px !important; 
+    display:    inline-block; 
+    display:   flex;   */
+    margin :  5px !important;
+    width:    auto;
+    height:   auto;
+    max-width : 300px;
+    min-width: 120px;
+}
+
 /*form div.dc */
 div.dc {   
     width  :  300px !important;
     height :  370px !important;
-    margin: 15px  !important;
-
 }
 
 div.tc {

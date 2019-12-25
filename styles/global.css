@@ -1,6 +1,16 @@
 
 
-.margine {
-    margin: 15px  !important; 
+.rowMarg {
+ 	/*margin: 0px  !important; */
+    /*padding: 5px 0px !important; */
 }
 
+.round {
+	/* margin: 15px  !important; */
+    display:        inline;
+    border-radius:  6px;
+}
+
+round:hover {
+    border: 1px solid blue;    
+}
