@@ -4,37 +4,27 @@ div {
 	 display:  block;
 }
 
-div.st {   
-   /* margin: 15px  !important; */
-    padding:  5px;
+div.roundBox {   
+    margin: 15px  !important; 
+    padding:  15px;
     border :  none;
     border-radius: 6px; 
     background-color: aquamarine; 
 }
 
-
-div.flx {   
-  display:   flex; 
-}
-
-div.ec {   
-  /*  width  :  180px !important; 
-    display:    inline-block; 
-    display:   flex;   */
-    margin :  5px !important;
+div.resizable {   
     width:    auto;
     height:   auto;
     max-width : 300px;
     min-width: 120px;
 }
 
-/*form div.dc */
-div.dc {   
+div.formBlock {   
     width  :  300px !important;
     height :  370px !important;
 }
 
-div.tc {
+div.fixedWidth {
     width  : 300px !important;
 }
 

@@ -1,16 +1,11 @@
 
-
-.rowMarg {
- 	/*margin: 0px  !important; */
-    /*padding: 5px 0px !important; */
-}
-
+ /* round image border */
 .round {
-	/* margin: 15px  !important; */
     display:        inline;
+    margin: 15px  !important; 
     border-radius:  6px;
 }
 
-round:hover {
+.round:hover {
     border: 1px solid blue;    
 }

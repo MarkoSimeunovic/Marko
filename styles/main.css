@@ -1,25 +1,28 @@
 
 body {
+    /*font-family: Helvetica, Arial, "Times New Roman",  sans-serif; */    
     background-color: #d0e4fe;
+    color: #9966ff;
 }
 
 *, ::before, ::after {
     box-sizing: inherit;
 	word-break: break-word;
 	word-wrap: break-word;
-    line-height: 1.5;
+    line-height: 1.5;   
 }
 
 
 h1,h2,h3 {
-    color: orange;
     text-align: center;
+    color: orange;
 }
 
 h4,h5,h6 {
-    color: blue;
     text-align: center;
+    color: blue;
 }
+
 
 p {
     font-family: "Times New Roman";
@@ -29,23 +32,11 @@ p {
 ul, li {
     list-style: none; 
     margin: 10px;
-    /*
-    display:          inline-block;
-    background-color: aquamarine;
-    color:            violet;
-    font-weight:      bold;  
-    border:           2px solid aqua;
-    border-radius:    6%;
-    */
 }
 
 
-
-
 a {
-    background-color: transparent ;
-    color:            inherit;
-    font-family:      Verdana;
+    background-color: transparent ;/
     font-style:       italic;
     font-weight:      bold;
 }
@@ -61,9 +52,8 @@ table, tr, th, td {
 }
 
 table {
-    /*  margin: 15px !important; */
-    /*width:  300px ; */
-}
+    margin: 15px  !important; 
+} 
 
 th, td {
     font-family:      Verdana;
@@ -87,23 +77,20 @@ td {
 th a:hover { color: white; }
 
 th a {
-    /*background-color: Bisque ;*/
     color:            blue;
-    font-family:      Verdana;
     font-style:       italic;
     font-weight:      bold;
 }
 
 
 select {
-    background-color: aqua ;
-    font-family:      Verdana;
-    width: 150px;
-    padding: 12px 20px;
-    /*margin: 15px;*/
     display: inline-block;
     border: 1px solid #ccc;
+    margin: 15px  !important; 
+    padding: 12px 20px;    
+    width: 150px;
     border-radius: 4px;
+    background-color: aqua ;   
     box-sizing: border-box;
 }
 
@@ -132,7 +119,6 @@ input[type=submit] {
     background-color: #4CAF50;
     color: white;
     padding: 14px 20px;
-    /*margin: 8px 20;*/
     border: none;
     border-radius: 6px;
     cursor: pointer;
@@ -148,8 +134,6 @@ input[type=submit]:hover {
 
 fieldset {
     display:        block;
-    /*width: 195px;
-    height: 170px;*/
     margin-left:    2px;
     margin-right:   2px;
     padding-top:    0.35em;
@@ -157,7 +141,6 @@ fieldset {
     padding-left:   0.75em;
     padding-right:  0.75em;
     border: 0px;
-    /*border: 2px groove (internal value);*/
 }
 
 legend, label {
@@ -171,7 +154,6 @@ legend, label {
 
 
 li a {
-    /*color: white;*/
     border: none;
     font-style:  normal;
     text-decoration: none;
@@ -180,9 +162,6 @@ li a {
 }
 
 li a:hover {
-    /*color: white;*/
     font-style:  normal;
     text-decoration: none;
-    /*background-color: cyan;*/ 
-
 }
