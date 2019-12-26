@@ -95,22 +95,16 @@ select {
 }
 
 
-input[type=text] {
-    padding: 5px;
-}
-
-input[type=submit]:hover {
-    background-color: #45a049;
-}
 
 input[type=text]{
+     display: inline-block;   
     width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
-    display: inline-block;
     border: 1px solid #ccc;
     border-radius: 6px;
     box-sizing: border-box;
+    font-size: 16px;
 }
 
 input[type=submit] {
@@ -124,6 +118,7 @@ input[type=submit] {
     cursor: pointer;
     margin-left: auto;
     margin-right: 0px;
+    font-size: 16px;
 }
 
 
@@ -150,8 +145,15 @@ legend, label {
     color: green;
 }
 
+legend {
+    text-align: center;
+    font-size: 1.5rem;
+}
 
-
+label {
+    text-align: left;
+    font-size: 16px;
+}
 
 li a {
     border: none;
